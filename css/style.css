@@ -414,9 +414,6 @@ h1 {
         margin-left: auto;
     }
 
-    .art-boxAdaptive {
-        margin-right: 28px;
-    }
 
     .art-box, .art-box__right {
         padding: 5% 0 0 0;
@@ -466,7 +463,6 @@ h1 {
 }
 
 
-
 @media (max-width: 820px) {
 
     .swiper-slide-bottom {
@@ -481,6 +477,7 @@ h1 {
     .tv-list li {
         font-size: 15px;
     }
+
 
     .tv-left {
         width: 50%;
@@ -539,7 +536,7 @@ h1 {
     }
 
     .art-container {
-        margin-left: 30px;
+        margin-left: 20px;
     }
 
     .art-title {
@@ -548,6 +545,10 @@ h1 {
         letter-spacing: 0.02em;
         text-transform: uppercase;
         color: #333333;
+    }
+
+    .art-box, .art-boxAdaptive {
+        max-width: 542px;
     }
 
     .art-subtitle {
@@ -560,7 +561,11 @@ h1 {
     }
 
     .art-box img {
-        max-width: 540px;
+        max-width: 638px;
+    }
+
+    .art-box--reverse .art-box__left {
+         justify-content: normal;
     }
 
     .art-box__title {
@@ -630,11 +635,18 @@ h1 {
         margin-bottom: 64px;
     }
 
+}
 
+@media screen and (min-device-width: 450px) and (max-device-width: 641px) {
+    .art-box img {
+        max-width: 450px;
+    }
+}
 
-
-
-
+@media screen and (max-device-width: 720px) and (min-device-width: 640px){
+    .art-box img {
+        max-width: 550px;
+    }
 }
 
 @media (max-width: 450px) {
@@ -655,9 +667,10 @@ h1 {
     }
 
     .tv-right {
-        width: 250px;
+        width: 350px;
         flex-direction: column;
         display: flex;
+        margin-left: auto;
     }
 
     .look {
