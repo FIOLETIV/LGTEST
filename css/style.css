@@ -340,6 +340,14 @@ h1 {
         right: 3%;
     }
 
+    .anno-content {
+        padding: 0 20px;
+    }
+
+    .art-container {
+        padding: 0 50px;
+    }
+
     .lookPrev {
         top: 33%;
         left: 79%;
@@ -394,7 +402,6 @@ h1 {
     .art-box--reverse .art-box__left {
         display: flex;
         justify-content: end;
-        margin-right: 40px;
     }
 
     .art-box__subtitle {
@@ -417,7 +424,7 @@ h1 {
 
     .swiper-button-next-bottom {
         top: 39%;
-        right: 7%;
+        right: 2%;
     }
 
     .swiper-button-prev-bottom {
@@ -481,6 +488,7 @@ h1 {
 
     .tv-right {
         width: 50%;
+        margin-right: 10%;
     }
     
     .hero-logo img {
@@ -514,7 +522,7 @@ h1 {
 
     .lookNext {
         top: 44%;
-        right: 0;
+        right: 1%;
     }
 
     .lookSlide {
@@ -523,7 +531,7 @@ h1 {
 
     .lookPrev {
         top: 44%;
-        left: 69%;
+        left: 61%;
     }
 
     .lookSize {
@@ -552,7 +560,7 @@ h1 {
     }
 
     .art-box img {
-        max-width: 638px;
+        max-width: 540px;
     }
 
     .art-box__title {
@@ -566,18 +574,18 @@ h1 {
     }
 
     .tv-logo img {
-        width: 700px;
+        width: 400px;
     }
 
     .annoNext {
-        top: 25%;
+        top: 20%;
         width: 75px;
         height: 54px;
         left: 86%;
     }
 
     .annoPrev {
-        top: 25%;
+        top: 20%;
         width: 75px;
         height: 54px;
         left: 73%;
@@ -755,6 +763,10 @@ h1 {
         line-height: 38px;
     }
 
+    .anno-button {
+        max-width: 300px;
+    }
+
     .tv-logo img {
         width: 300px;
     }
@@ -785,7 +797,6 @@ h1 {
 
     .swiper-button-next-bottom {
         top: 7%;
-        right: 4%;
         width: 50px;
         height: 36px;
     }
