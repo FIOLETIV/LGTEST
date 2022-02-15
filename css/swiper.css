@@ -47,10 +47,6 @@
     background: #F8F8F8;
 }
 
-.lookSize {
-    width: 2184px;
-}
-
 .annoPrev {
     top: 19%;
     left: 73%;
@@ -84,11 +80,6 @@
 .swiper-button-prev-bottom {
     top: 63%;
     left: 14%;
-}
-
-
-.swiper-slide-active {
-    min-width: 400px;
 }
 
 .swiperBottom {

@@ -93,6 +93,17 @@ h1 {
 .art-container {
     max-width: 1720px;
     margin: 120px auto 0;
+    padding: 0 10px;
+}
+
+.lookSlide {
+    max-width: 1060px;
+    width: 100%;
+}
+
+.lookSize {
+    width: 100%;
+    margin-left: 0;
 }
 
 .art-title {
@@ -239,7 +250,8 @@ h1 {
 }
 
 .anno-button {
-    width: 320px;
+    max-width: 320px;
+    width: 100%;
     height: 92px;
     border: 2px solid #333333;
     box-sizing: border-box;
@@ -260,6 +272,7 @@ h1 {
 
 .orange {
     background: #BA8748;
+    width: 100%;
     max-width: 454px;
     height: 136px;
     margin-bottom: 32px;
@@ -267,6 +280,7 @@ h1 {
 
 .orangeText {
     color: #BA8748;
+    width: 100%;
     max-width: 454px;
     height: 136px;
 }
@@ -319,12 +333,24 @@ h1 {
     margin-bottom: 100px;
 }
 
+@media (max-width: 1510px) {
 
-@media (max-width: 1024px) {
-    body {
-        max-width: 1024px;
-        justify-content: center;
+    .lookNext {
+        top: 33%;
+        right: 3%;
     }
+
+    .lookPrev {
+        top: 33%;
+        left: 79%;
+    }
+
+    .anno-subtitle {
+        margin: 0 15px;
+    }
+}
+
+@media (max-width: 1250px) {
 
     .hero p {
         max-width: 900px;
@@ -343,12 +369,12 @@ h1 {
     }
 
     .lookPrev {
-        top: 49%;
+        top: 47%;
         left: 73%;
     }
 
     .lookNext {
-        top: 49%;
+        top: 47%;
         right: 3%;
     }
 
@@ -356,13 +382,6 @@ h1 {
         max-width: 600px;
     }
 
-    .lookSlide img {
-        width: 100%;
-    }
-
-    .lookSize {
-        width: 1784px;
-    }
 
     .art-container {
         margin-left: 40px;
@@ -378,8 +397,18 @@ h1 {
         margin-right: 40px;
     }
 
+    .art-box__subtitle {
+        max-width: 850px;
+    }
+
     .art-box--reverse .art-box__right {
-        padding: 5% 0 0 9%;
+        padding: 4% 0 0 0;
+        max-width: 905px;
+        margin-left: auto;
+    }
+
+    .art-boxAdaptive {
+        margin-right: 28px;
     }
 
     .art-box, .art-box__right {
@@ -418,6 +447,10 @@ h1 {
         padding-bottom: 232px;
     }
 
+    .lookSlide {
+        max-width: 860px;
+    }
+
     .annoPrev {
         top: 19%;
         left: 70%;
@@ -425,15 +458,12 @@ h1 {
 
 }
 
-@media (max-width: 768px) {
-    body {
-        max-width: 1024px;
-        justify-content: center;
-    }
+
+
+@media (max-width: 820px) {
 
     .swiper-slide-bottom {
-        display: flex;
-        justify-content: center;
+        padding: 0 4%;
     }
 
     .container-bottom {
@@ -446,7 +476,11 @@ h1 {
     }
 
     .tv-left {
-        margin: 0;
+        width: 50%;
+    }
+
+    .tv-right {
+        width: 50%;
     }
     
     .hero-logo img {
@@ -483,13 +517,17 @@ h1 {
         right: 0;
     }
 
+    .lookSlide {
+        max-width: 630px;
+    }
+
     .lookPrev {
         top: 44%;
         left: 69%;
     }
 
     .lookSize {
-        width: 1267px;
+        width: 100%;
     }
 
     .art-container {
@@ -573,7 +611,8 @@ h1 {
     }
 
     .anno-button {
-        width: 352px;
+        max-width: 352px;
+        width: 100%;
         height: 136px;
         font-size: 14px;
         line-height: 20px;
@@ -582,6 +621,8 @@ h1 {
     .anno-content {
         margin-bottom: 64px;
     }
+
+
 
 
 
@@ -603,6 +644,12 @@ h1 {
     .heroImg img {
         height: 406px;
         max-width: 450px;
+    }
+
+    .tv-right {
+        width: 100%;
+        flex-direction: column;
+        display: flex;
     }
 
     .look {
@@ -630,25 +677,25 @@ h1 {
     }
 
     .lookSize {
-        width: 600px;
+        width: 100%;
     }
 
     .lookNext {
-        top: 47%;
+        top: 64%;
         right: 6%;
         width: 50px;
         height: 36px;
     }
 
     .lookPrev {
-        top: 47%;
+        top: 64%;
         left: 67%;
         width: 50px;
         height: 36px;
     }
 
     .art-title {
-        font-size: 58px;
+        font-size: 50px;
         line-height: 60px;
         max-width: 300px;
         margin-left: 20px;
@@ -676,7 +723,16 @@ h1 {
     }
 
     .art-box img {
-        max-width: 430px;
+        max-width: 100%;
+        /* margin-left: 5%; */
+    }
+
+    .art-box__right {
+        padding: 3% 0 0 4%;
+    }
+
+    .art-box--reverse .art-box__right {
+        padding: 3% 0 0 4%;
     }
 
     .art-box {
@@ -688,19 +744,6 @@ h1 {
         /* justify-content: end; */
         margin: 0 auto;
         /* margin-right: 40px; */
-    }
-
-    .art-box__left {
-        margin-bottom: 60px;
-        margin: 0 auto;
-    }
-
-    .art-box--reverse .art-box__right {
-        padding: 0 0 0 6px;
-    }
-
-    .art-box, .art-box__right {
-        padding: 0 0 0 6px;
     }
 
     .art-container {
@@ -732,11 +775,11 @@ h1 {
     }
 
     .orange {
-        width: 352px;
+        max-width: 352px;
     }
 
     .orangeText {
-        width: 352px;
+        max-width: 352px;
     }
 
     .swiper-button-next-bottom {
@@ -794,6 +837,20 @@ h1 {
         padding-top: 70px;
         font-size: 50px;
         padding-bottom: 92px;
+    }
+
+    .lookSlide {
+        max-width: 266px;
+    }
+
+    .swiper-slide-top-active img {
+        max-width: 276px;
+        max-height: 276px;
+    }
+
+    .swiper-slide-top {
+        min-height: 270px;
+        max-width: 4gpx;
     }
 
 }

@@ -4,8 +4,10 @@ let swiper1 = new Swiper(".swiperHero", {
     },
 });
 
-let swiper2 = new Swiper(".swiperLook", {
+let swiper2 = new Swiper(".lookSize", {
     centeredSlides: false,
+    slidesPerView: 'auto',
+    spaceBetween: 30,
     navigation: {
         nextEl: ".lookNext",
         prevEl: ".lookPrev",
@@ -15,16 +17,16 @@ let swiper2 = new Swiper(".swiperLook", {
     breakpoints: {
         // when window width is >= 320px
         1920: {
-            slidesPerView: 2,
-            spaceBetween: 64,
+            slidesPerView: 'auto',
+            spaceBetween: 31,
         },
         1024: {
-            slidesPerView: 2,
-            spaceBetween: 64,
+            slidesPerView: 'auto',
+            spaceBetween: 31,
         },
-        768: {
-            slidesPerView: 2,
-            spaceBetween: 64,
+        820: {
+            slidesPerView: 'auto',
+            spaceBetween: 31,
         },
     }
 });
