@@ -45,6 +45,7 @@ h1 {
     letter-spacing: 0.02em;
     text-transform: uppercase;
     color: #333333;
+    max-width: 900px;
 }
 
 .hero span {
@@ -272,8 +273,7 @@ h1 {
 
 .orange {
     background: #BA8748;
-    width: 100%;
-    max-width: 454px;
+    width: 454px;
     height: 136px;
     margin-bottom: 32px;
 }
@@ -647,7 +647,7 @@ h1 {
     }
 
     .tv-right {
-        width: 100%;
+        width: 250px;
         flex-direction: column;
         display: flex;
     }
@@ -657,7 +657,7 @@ h1 {
     }
 
     .look-title {
-        font-size: 58px;
+        font-size: 40px;
         line-height: 60px;
         padding-top: 64px;
     }
@@ -689,13 +689,13 @@ h1 {
 
     .lookPrev {
         top: 64%;
-        left: 67%;
+        left: 60%;
         width: 50px;
         height: 36px;
     }
 
     .art-title {
-        font-size: 50px;
+        font-size: 40px;
         line-height: 60px;
         max-width: 300px;
         margin-left: 20px;
@@ -762,6 +762,7 @@ h1 {
     .swiper-slide-bottom {
         display: flex;
         flex-direction: column;
+        align-items: start;
     }
 
     .tv-list {
@@ -783,14 +784,14 @@ h1 {
     }
 
     .swiper-button-next-bottom {
-        top: 10%;
+        top: 7%;
         right: 4%;
         width: 50px;
         height: 36px;
     }
 
     .swiper-button-prev-bottom {
-        top: 10%;
+        top: 7%;
         left: 60%;
         width: 50px;
         height: 36px;
@@ -826,12 +827,16 @@ h1 {
     }
 
     .annoPrev {
-        left: 54%;
+        left: 48%;
+        top: 14%;
+
     }
 
     .annoNext {
         left: 76%;
+        top: 14%
     }
+
 
     .anno-title {
         padding-top: 70px;
@@ -850,7 +855,7 @@ h1 {
 
     .swiper-slide-top {
         min-height: 270px;
-        max-width: 4gpx;
+        max-width: 426px;
     }
 
 }
